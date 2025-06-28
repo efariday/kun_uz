@@ -1,3 +1,3 @@
-from .views import UserProfileAPIView
+from .views import ProfileAPIView
 
-__all__ = ['UserProfileAPIView']
+__all__ = ['ProfileAPIView']
