@@ -12,6 +12,7 @@ app_name = "users"
 urlpatterns = [
     path('login/', LoginSessionAPIView.as_view(), name='login'),
     path('logout/', LogoutSessionAPIView.as_view(), name='logout'),
+    path('register/confirm/', RegisterConfirmAPIView.as_view(), name='register-confirm'),
     path('register/', RegisterAPIView.as_view(), name='register'),
     path('profile/', ProfileAPIView.as_view(), name='profile'),
     path('confirm-email/', RegisterConfirmAPIView.as_view(), name='confirm-email'),

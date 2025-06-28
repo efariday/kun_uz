@@ -56,6 +56,7 @@ EXTERNAL_APPS = [
     'drf_yasg',
     'jazzmin',
     'drf_spectacular',
+    'modeltranslation',
 ]
 
 
@@ -164,7 +165,13 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+LANGUAGES = (
+    ('uz', 'Uzbek'),
+    ('ru', 'Russian'),
+    ('en', 'English'),
+)
 
+MODELTRANSLATION_DEFAULT_LANGUAGE = 'uz'
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
 
